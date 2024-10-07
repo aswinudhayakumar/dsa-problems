@@ -8,7 +8,7 @@ func main() {
 	for i := 0; i < len(a)-1; i++ {
 		a[i] = a[i+1]
 	}
-	a[len(a)-2] = t
+	a[len(a)-1] = t
 
 	fmt.Println(a)
 }
